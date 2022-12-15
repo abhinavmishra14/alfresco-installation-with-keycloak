@@ -6,14 +6,6 @@ This project is a demo on how to configure alfresco, share, proxy, content-app a
 
 >> Add your local computer IP to `.env` variable HOST_IP before running Docker Compose.
 
-### To create the external volumes use following command:
-
-`docker volume create <volumeName>`
-
-### To purge the external volumes use following command:
-
-`docker volume rm -f <volumeName>`
-
 ### To build use following command:
 
 - To build the images, This command will ignore any images which are already built and no changes to DockerFile has been identified. It will use cache.
